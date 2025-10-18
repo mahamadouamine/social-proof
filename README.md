@@ -1,4 +1,6 @@
-<============Page d’avis clients=========>
+#social-proof
+
+##Page d’avis clients
 
 Ce projet est une page web qui affiche des témoignages de clients satisfaits.  
 Elle est faite en HTML et CSS uniquement.  
