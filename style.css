@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.section-principale {
+    background-color: #fff;
+    width: 1060px;
+   
+    font-family: Arial, sans-serif;
+    
+    height: 100vh;
+     margin-top: 500px;
+   
+}
+
+.section-n1 {
+    display: flex;
+    gap: 5em;
+
+}
+
+.nombre-utilisateur {
+    width: 50%;
+}
+
+.t-10M-utilisateurs h1{
+    font-weight: bold;
+    color: #3d0a4e;
+    font-size: 2.6em;
+
+    
+}
+
+
+.nombre-utilisateur p {
+    margin-top: 1.2em;
+    color: #777;
+    line-height: 1.6;
+    
+    
+}
+
+.conteneur-des-etoiles {
+    width: 100%;
+    padding-right: 20px;
+    
+}
+
+.la-ligne-etoile {
+    display: flex;
+    margin-top: 12px;
+    background-color: #ede8f0;
+    gap: 1em;
+
+}
+.la-ligne-etoile p {
+    margin-top: 4px;
+    
+}
+
+.les-etoiles {
+    max-width: 700px;
+}
+
+.ajustement-ligne-etoile1 {
+    padding: 1em;
+    width: 90%;
+    margin-left: 80px;
+    height: 3.5em;
+    border-radius: 12px;
+}
+
+.ajustement-ligne-etoile1:hover {
+   background-color: #dbdada;
+}
+
+.ajustement-ligne-etoile2 {
+    padding: 1em;
+    width: 90%;
+    margin-left: 54px;
+    height: 3.5em;
+    border-radius: 12px;
+}
+.ajustement-ligne-etoile2:hover {
+    background-color: #dbdada;
+    
+}
+
+
+.ajustement-ligne-etoile3 {
+    padding: 1em;
+    width: 90%;
+    margin-left: 24px;
+    height: 3.5em;
+    border-radius: 12px;
+}
+.ajustement-ligne-etoile3:hover {
+    background-color: #dbdada;
+}
+
+.etoile {
+    color: orange;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.section-n2 {
+    margin-top: 3.8em;
+    width: 100%;
+   
+}
+
+.les-deux-cartes-superposee {
+    display: flex;
+    gap: 1.2em;
+
+}
+
+.carte-de-gauche {
+    background-color: #4b0a63;
+    height: 12.2em;
+    border-radius: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.les-deux-cartes-superposee :hover {
+    background-color: #8f33ad;
+}
+
+.carte-de-droite {
+    background-color: #4b0a63;
+    height: 12.2em;
+    border-radius: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.la-carte-de-tout-en-bas {
+    background-color: #4b0a63;
+    margin-top: 1.5em;
+    height: 11em;
+    border-radius: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.la-carte-de-tout-en-bas:hover {
+    background-color: #8f33ad;
+}
+
+.para-dans-les-cartes {
+    color: #fff;
+    padding-left: 14px;
+    font-size: 1rem;
+}
+
+.en-tete-utilisateur {
+    display: flex;
+    padding: 18px;
+    gap: 14px;
+}
+
+.en-tete-utilisateur p {
+    color: #c9a2db;
+}
+
+.en-tete-utilisateur img {
+    width: 3em;
+    height: 3em;
+    clip-path: circle();
+}
+
+.en-tete-utilisateur h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+.section-principale {
+    width: 100vw;
+    height: 100vh;
+     margin-top: 90px;
+}
+
+.t-10M-utilisateurs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    align-items: center;
+}
+
+.section-n1{
+    flex-direction: column;
+}
+
+.conteneur-des-etoiles {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 66px;
+} 
+
+ .la-ligne-etoile {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;       
+    justify-content: center;   
+    text-align: center;         
+    width: 768px;
+  }
+
+.ajustement-ligne-etoile1 {
+    margin: auto;
+    margin-bottom: 15px;
+   gap: 0;
+}
+
+.ajustement-ligne-etoile2 {
+    margin: auto;
+    margin-bottom: 15px;
+   gap: 0;
+}
+
+.ajustement-ligne-etoile3 { 
+   margin: auto;
+   margin-bottom: 15px;
+   gap: 0;
+}
+
+.section-n2 .les-deux-cartes-superposee {
+    flex-direction: column;
+}
+
+.section-n2 {
+    padding-left: 170px;
+    width: 78%;
+}
+
+} 
+
+
+
+
+
+
+@media (max-width: 425px) {
+
+.section-principale {
+    width: 100vw;
+    height: 100vh;
+     margin-top: 90px;
+}
+
+.t-10M-utilisateurs h1 {
+    font-size: 200%;
+}
+
+.conteneur-des-etoiles {
+    margin-bottom: 50px;
+}
+
+ .la-ligne-etoile {        
+    width: 425px;
+  }
+  
+.ajustement-ligne-etoile1 {
+    margin-left: 65px;
+}
+
+.ajustement-ligne-etoile2 {
+    margin-left: 65px;
+}
+
+.ajustement-ligne-etoile3 { 
+  margin-left: 65px;
+}
+
+.section-n2 {
+    margin: 5px;
+    padding: 0px;
+}
+
+.carte-de-gauche {
+    width: 414px;
+    margin-right: 170px;
+}
+
+.carte-de-droite {
+    width: 414px;
+    margin-right: 170px;
+}
+
+.la-carte-de-tout-en-bas {
+    width: 414px;
+    margin-right: 170px;
+}
+
+} 
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+
+.ajustement-ligne-etoile1 {
+  width: 370px;
+}
+
+.ajustement-ligne-etoile2 {
+   width: 370px;
+}
+
+.ajustement-ligne-etoile3 { 
+  width: 370px;
+} 
+
+.carte-de-gauche {
+    width: 364px;
+}
+
+.carte-de-droite{
+    width: 364px;
+}
+
+.la-carte-de-tout-en-bas {
+     width: 364px;
+}
+
+}
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+
+.t-10M-utilisateurs {
+    padding: 4px;
+}
+
+.ajustement-ligne-etoile1 {
+
+  width: 320px;
+}
+
+.ajustement-ligne-etoile2 {
+   width: 320px;
+}
+
+.ajustement-ligne-etoile3 {
+   width: 320px;
+}
+
+.carte-de-gauche {
+    width: 310px;
+}
+
+.carte-de-droite{
+    width: 310px;
+}
+
+.la-carte-de-tout-en-bas {
+     width: 310px;
+}
+
+.para-dans-les-cartes {
+    padding: 0;
+}
+
+}
